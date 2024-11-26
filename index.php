@@ -16,36 +16,10 @@
     <div class="container mt-4">
     <div class="content-wrapper">
         <!-- Sidebar -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-house"></i>&nbsp;Inicio
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-1-square-fill"></i>&nbsp;Opción 1
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-2-square-fill"></i>&nbsp;Opción 2
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-3-square-fill"></i>&nbsp;Opción 3
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="bi bi-power"></i>&nbsp;Salir
-                    </a>
-                </li>
-            </ul>
-        </nav>
-            <!-- Contenido -->
+        <?php
+            include 'menu.php';
+        ?>   
+        <!-- Contenido -->
             <div class="border border-dark border-1 h-100 p-4 text-dark">
                 <h2>Titulo</h2>
                 <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem
